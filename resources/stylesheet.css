@@ -1,29 +1,65 @@
-@font-face
-{
+/*
+COLOR SCHEME (triad)
+
+header background: #ffffff
+header boarder: #baa385
+body background: #fff6ea
+a: #838399
+a:hover: #636382
+a:active: #5b7f70
+a:visited: #d1d1d6
+*/
+
+@font-face {
     font-family: BigCarlson;
     src: url(BigCaslon.ttf);
     font-weight: normal;
 }
 
-body
-{
-  font-family: BigCarlson;
-  color: black;
-  background-color: #fff6ea
+body {
+    font-family: BigCarlson;
+    color: black;
+    background-color: #fff6ea
 }
 
-div#header-fixed
-{
-  position:fixed;
-  top:0px;
-  margin:auto;
-  z-index:100000;
-  width:100%;
+div#header-fixed {
+    position:fixed;
+    top:0px;
+    margin:auto;
+    z-index:100000;
+    width:100%;
 }
 
-div#header
-{
-  background:#000;
-  height:72px;
-  opacity:0.8;
+div#header {
+    background:#ffffff;
+    border-width: 0px;
+    border-bottom: 2px solid #baa385;
+    height:72px;
+    opacity:0.8;
+}
+
+a:link {
+    color: #838399;
+}
+
+a:visited {
+    color: #d1d1d6;
+}
+
+a:hover {
+    color: #636382;
+}
+
+a:active {
+    color: #5b7f70;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
