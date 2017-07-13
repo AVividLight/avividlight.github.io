@@ -1,0 +1,13 @@
+@font-face
+{
+    font-family: BigCarlson;
+    src: url(BigCaslon.ttf);
+    font-weight: normal;
+}
+
+body
+{
+  font-family: BigCarlson;
+  color: black;
+  background-color: #fff6ea
+}
