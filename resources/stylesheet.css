@@ -16,6 +16,11 @@ a:visited: #d1d1d6
     font-weight: normal;
 }
 
+.subtle-text {
+    
+    color: #d1d1d6;
+}
+
 body {
     font-family: BigCarlson;
     color: black;
@@ -36,6 +41,11 @@ div#header {
     border-bottom: 2px solid #baa385;
     height:72px;
     opacity:0.8;
+}
+
+a {
+    margin: 2px;
+    vertical-align:sub;
 }
 
 a:link {
