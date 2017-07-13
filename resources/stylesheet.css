@@ -11,3 +11,19 @@ body
   color: black;
   background-color: #fff6ea
 }
+
+div#header-fixed
+{
+  position:fixed;
+  top:0px;
+  margin:auto;
+  z-index:100000;
+  width:100%;
+}
+
+div#header
+{
+  background:#000;
+  height:72px;
+  opacity:0.8;
+}
