@@ -1,13 +1,25 @@
 /*
 COLOR SCHEME (triad)
+40I0u0k2Ew001Z30RJS5lrt97nl
 
 header background: #ffffff
 header boarder: #baa385
+
 body background: #fff6ea
-a: #838399
-a:hover: #636382
-a:active: #5b7f70
-a:visited: #d1d1d6
+
+div border: #ffffff
+div featured-photographs: #C9CCCE
+
+hr: #636382
+
+subtle-text: #d1d1d6
+
+figcaption: #d1d1d6
+
+link: #838399
+link hover: #636382
+link active: #5b7f70
+link visited: #d1d1d6
 */
 
 @font-face {
@@ -17,30 +29,15 @@ a:visited: #d1d1d6
 }
 
 .subtle-text {
-    
     color: #d1d1d6;
 }
 
-body {
-    font-family: BigCarlson;
-    color: black;
-    background-color: #fff6ea
-}
-
-div#header-fixed {
-    position:fixed;
-    top:0px;
-    margin:auto;
-    z-index:100000;
-    width:100%;
-}
-
-div#header {
-    background:#ffffff;
-    border-width: 0px;
-    border-bottom: 2px solid #baa385;
-    height:72px;
-    opacity:0.8;
+.thumbnail {
+	max-width: 362px;
+	max-height: 362px;
+	padding: 0px;
+	margin: 4px;
+	border: 8px solid #ffffff;
 }
 
 a {
@@ -64,12 +61,112 @@ a:active {
     color: #5b7f70;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body {
+    font-family: BigCarlson;
+	background: #fff6ea;
+	max-width: 1024px;
+	margin: auto;
+}
+
+div#header-fixed {
+    position:fixed;
+    top:0px;
+    margin:auto;
+    z-index:100000;
+    width:100%;
+}
+
+div#header {
+    background:#ffffff;
+    border-width: 0px;
+    border-bottom: 2px solid #baa385;
+    height:72px;
+    opacity:0.8;
+}
+
+div#main {
+	height: 100%;
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	padding: 4px;
+}
+
+div#title {
+	margin: 4px;
+	padding: 8px;
+	background: #c9ccce;
+}
+
+div#featured-photographs {
+	font-size: 0px;
+	margin: 4px;
+	padding: 8px;
+	background: #C9CCCE;
+}
+
+div#featured-writing {
+	margin: 4px;
+	padding: 8px;
+	background: #838399;
+}
+
+h1 {
+	font-size: 2em;
+	color: #000000;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #000000;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 1.6em;
+	color: #000000;
+}
+
+h4 {
+	font-size: 1.4em;
+	color: #000000;
+}
+
+h5 {
+	font-size: 1.2em;
+	color: #000000;
+}
+
+h6 {
+	font-size: 1em;
+	color: #000000;
+}
+
+hr {
+	display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
 }
 
 li {
     display: inline;
+	vertical-align: sub;
+}
+
+p {
+	color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 4px;
 }
