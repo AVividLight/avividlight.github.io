@@ -90,10 +90,11 @@ div#title {
 }
 
 div#featured-photographs {
-	font-size: 0px;
-	text-align: center;
 	margin: 4px;
 	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	background: #C9CCCE;
 }
 
@@ -145,15 +146,13 @@ hr {
 
 img {
 	margin: 0px;
-	padding: 0px;
 	vertical-align: top;
+	object-fit: contain;
 }
 
 img.thumbnail {
 	max-width: 305px;
 	max-height: 305px;
-	display: inline-block;
-	padding: 0px;
 	margin: 4px;
 	border: 8px solid #ffffff;
 }
