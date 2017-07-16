@@ -32,14 +32,6 @@ link visited: #d1d1d6
     color: #d1d1d6;
 }
 
-.thumbnail {
-	max-width: 362px;
-	max-height: 362px;
-	padding: 0px;
-	margin: 4px;
-	border: 8px solid #ffffff;
-}
-
 a {
     margin: 2px;
     vertical-align:sub;
@@ -88,17 +80,18 @@ div#main {
 	height: 100%;
 	border-left: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
 	padding: 4px;
 }
 
 div#title {
 	margin: 4px;
 	padding: 8px;
-	background: #c9ccce;
 }
 
 div#featured-photographs {
 	font-size: 0px;
+	text-align: center;
 	margin: 4px;
 	padding: 8px;
 	background: #C9CCCE;
@@ -156,8 +149,21 @@ img {
 	vertical-align: top;
 }
 
+img.thumbnail {
+	max-width: 305px;
+	max-height: 305px;
+	display: inline-block;
+	padding: 0px;
+	margin: 4px;
+	border: 8px solid #ffffff;
+}
+
 li {
-    display: inline;
+	
+}
+
+li.inline {
+	display: inline;
 	vertical-align: sub;
 }
 
@@ -169,4 +175,8 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 4px;
+}
+
+ul.inline {
+	display: inline;
 }
