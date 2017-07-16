@@ -22,10 +22,15 @@ link active: #5b7f70
 link visited: #d1d1d6
 */
 
-@font-face {
-    font-family: BigCarlson;
-    src: url(BigCaslon.ttf);
-    font-weight: normal;
+.author {
+	padding: 0px;
+	margin: 0px;
+	color: #fffcf8;
+}
+
+.article-body {
+	padding: 8px;
+	margin: 0px;
 }
 
 .subtle-text {
@@ -54,7 +59,6 @@ a:active {
 }
 
 body {
-    font-family: BigCarlson;
 	background: #fff6ea;
 	max-width: 1024px;
 	margin: auto;
@@ -104,6 +108,13 @@ div#featured-writing {
 	background: #838399;
 }
 
+div.article {
+	padding: 8px;
+	margin: 8px;
+	border: 2px solid #ffffff;
+	background: #dbccb6;
+}
+
 h1 {
 	font-size: 2em;
 	color: #000000;
@@ -122,6 +133,7 @@ h3 {
 
 h4 {
 	font-size: 1.4em;
+	margin: 0em;
 	color: #000000;
 }
 
