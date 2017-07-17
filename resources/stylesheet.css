@@ -23,12 +23,8 @@ a {
     vertical-align:sub;
 }
 
-a:link {
+a:link, a:visited {
     color: #838399;
-}
-
-a:visited {
-    color: #d1d1d6;
 }
 
 a:hover {
@@ -176,6 +172,12 @@ img.thumbnail {
 	margin: 4px;
 	border: 8px solid #ffffff;
     opacity: 1;
+}
+
+img.icon {
+    margin: 4px;
+    border-radius: 5px;
+    max-width: 32px;
 }
 
 img:hover {
