@@ -119,11 +119,11 @@ div#main {
 	padding-top: 74px;
 }
 
-div#end-float {
+div.clear-float {
 	clear:both;
 }
 
-div#title {
+div.title {
 	margin: 4px;
 	padding: 8px;
 }
