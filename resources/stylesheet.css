@@ -19,8 +19,7 @@ http://paletton.com/#uid=40I0u0k2Ew001Z30RJS5lrt97nl
 }
 
 a {
-    margin: 2px;
-    vertical-align:sub;
+	
 }
 
 a:link, a:visited {
@@ -33,6 +32,11 @@ a:hover {
 
 a:active {
     color: #5b7f70;
+}
+
+a.header {
+	margin: 2px;
+	vertical-align:sub;
 }
 
 body {
