@@ -9,6 +9,16 @@
         <meta name="author" content="Michael Bethke">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="resources/stylesheet.css">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script>
+			jQuery(function($) {
+				$('.stack-thumbnail').each(function() {
+					var a = Math.floor(Math.random() * (15 - -15 + 1)) + -15;
+					$(this).css('transform', 'rotate(' + a + 'deg)');
+				});
+			});
+		</script>
 	</head>
 
 	<body>        
@@ -24,14 +34,9 @@
 		</div>
         
         <div id="main">
-			<h3>IN DEVELOPMENT</h3>
-			<p>Maybe have seperate pages for camera types (Canon, iPhone, LG, etc)?</p>
-			<p>Or seperate pages by photoshoot/activity (Candid, Streetphotography, June 17, 2017, etc)?</p>
-			<br>
-			
 			<div class="title" style="background:#77838D">
 				<h2 style="display: inline">Test Shots</h2>
-				<a href="/NOTICE_ME_THEN_UPDATE_ME_TO_THE_CORRECT_LINK.xml" style="float: right"><img src="resources/generic/feedicon.svg" alt="RSS" width="32" height="32"></a>
+<!-- UPDATE XML LINK -->				<a href="/***NOTICE_ME_THEN_UPDATE_ME_TO_THE_CORRECT_LINK***.xml" style="float: right"><img src="resources/generic/feedicon.svg" alt="RSS" width="32" height="32"></a>
 			</div>
 
 			<div class="clear-float"></div>
@@ -39,11 +44,11 @@
 			<div id="photography-albums">
 				<span class="image-stack">
 					<h2>title</h2>
-					<figure class="image-stack">
+					<a href="/404.html"><figure class="image-stack">
 						<img src="photographs/thumbnails/autumn_color_thumbnail.jpg" alt="top of stack" class="stack-thumbnail">
 						<img src="photographs/thumbnails/its_here_thumbnail.jpg" alt="middle of stack" class="stack-thumbnail">
 						<img src="photographs/thumbnails/earl_grey_thumbnail.jpg" alt="middle of stack" class="stack-thumbnail">
-					</figure>
+					</figure></a>
 					<p>description</p>
 				</span>
 				

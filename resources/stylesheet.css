@@ -2,7 +2,6 @@
 Color Palette by Paletton.com
 http://paletton.com/#uid=40I0u0k2Ew001Z30RJS5lrt97nl
 */
-
 .author {
 	padding: 0px;
 	margin: 0px;
@@ -75,7 +74,7 @@ div#header {
 }
 
 div#main {
-	height: 100%;
+	
 	border-left: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
 	border-bottom: 2px solid #ffffff;
@@ -141,19 +140,9 @@ figure.image-stack img:last-child {
 	position: relative;
 }
 
-figure.image-stack img:first-child {
-	-webkit-transform: rotate(-5deg);
-	transform: rotate(-5deg);
-}
-
 figure.image-stack:hover img:first-child {
 	-webkit-transform: rotate(-15deg);
 	transform: rotate(-15deg);
-}
-
-figure.image-stack img:nth-child(2) {
-	-webkit-transform: rotate(5deg);
-	transform: rotate(5deg);
 }
 
 figure.image-stack:hover img:nth-child(2) {
