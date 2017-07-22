@@ -114,16 +114,18 @@ div.article {
 	background: #dbccb6;
 }
 
-div#photography-iphone-album {
+div#photography-albums {
 	margin: 4px;
 	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	background: #77838D;
 }
 
 figure.image-stack {
-	margin: 20px auto;
-	width: 305px;
-	padding: 0;
+	margin: 32px;
+	padding: auto;
 	position: relative;
 }
 
@@ -139,9 +141,19 @@ figure.image-stack img:last-child {
 	position: relative;
 }
 
+figure.image-stack img:first-child {
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
 figure.image-stack:hover img:first-child {
 	-webkit-transform: rotate(-15deg);
 	transform: rotate(-15deg);
+}
+
+figure.image-stack img:nth-child(2) {
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
 }
 
 figure.image-stack:hover img:nth-child(2) {
@@ -248,6 +260,13 @@ li.inline {
 
 p {
 	color: #000000;
+}
+
+span.image-stack {
+	display: inline-block;
+	margin: 8px;
+	padding: 8px;
+	text-align: center;
 }
 
 ul {
