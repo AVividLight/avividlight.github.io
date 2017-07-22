@@ -114,6 +114,46 @@ div.article {
 	background: #dbccb6;
 }
 
+div#photography-iphone-album {
+	margin: 4px;
+	padding: 8px;
+	background: #77838D;
+}
+
+figure.image-stack {
+	margin: 20px auto;
+	width: 305px;
+	padding: 0;
+	position: relative;
+}
+
+figure.image-stack img {
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: transform 0.2s;
+}
+
+figure.image-stack img:last-child {
+	position: relative;
+}
+
+figure.image-stack:hover img:first-child {
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+figure.image-stack:hover img:nth-child(2) {
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+figure.image-stack:hover img:nth-child(3) {
+	-webkit-transform: translate(0px,10px);
+	transform: translate(0px,10px);
+}
+
 h1 {
 	font-size: 2em;
 	color: #000000;
@@ -177,6 +217,14 @@ img.thumbnail {
 	margin: 4px;
 	border: 8px solid #ffffff;
     opacity: 1;
+	box-shadow: 0px 2px 5px #888888;
+}
+
+img.stack-thumbnail {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	outline: 8px solid #ffffff;
 }
 
 img.icon {
