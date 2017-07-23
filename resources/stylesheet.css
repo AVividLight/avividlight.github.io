@@ -38,7 +38,7 @@ a.header {
 	vertical-align:sub;
 }
 
-a.title {
+a.stack-title {
 	font-size: 1.8em;
 	color: #ffffff;
 }
@@ -129,9 +129,13 @@ div#photography-albums {
 
 div.image-stack {
 	display: inline-block;
+	width: 260px;
+	word-wrap: break-word;
 	margin: 8px;
 	padding: 8px;
 	text-align: center;
+	border: 2px solid #ffffff;
+	background: #DBCBB6
 }
 
 figure.image-stack {
@@ -238,6 +242,7 @@ img.stack-thumbnail {
 	height: 200px;
 	object-fit: cover;
 	outline: 8px solid #ffffff;
+	box-shadow: 0px 5px 10px #888888;
 }
 
 img.icon {
@@ -261,6 +266,10 @@ li.inline {
 
 p {
 	color: #000000;
+}
+
+p.album-details {
+	color: #BA8385
 }
 
 ul {
