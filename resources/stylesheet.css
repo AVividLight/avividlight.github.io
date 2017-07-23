@@ -38,6 +38,11 @@ a.header {
 	vertical-align:sub;
 }
 
+a.title {
+	font-size: 1.8em;
+	color: #ffffff;
+}
+
 body {
 	background: #fff6ea;
 	max-width: 1024px;
@@ -120,6 +125,13 @@ div#photography-albums {
 	flex-wrap: wrap;
 	justify-content: center;
 	background: #77838D;
+}
+
+div.image-stack {
+	display: inline-block;
+	margin: 8px;
+	padding: 8px;
+	text-align: center;
 }
 
 figure.image-stack {
@@ -249,13 +261,6 @@ li.inline {
 
 p {
 	color: #000000;
-}
-
-span.image-stack {
-	display: inline-block;
-	margin: 8px;
-	padding: 8px;
-	text-align: center;
 }
 
 ul {
