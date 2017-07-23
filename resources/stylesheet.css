@@ -118,7 +118,7 @@ div.article {
 	background: #dbccb6;
 }
 
-div#photography-albums {
+div.photography-albums {
 	margin: 4px;
 	padding: 8px;
 	display: flex;
