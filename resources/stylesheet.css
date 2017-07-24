@@ -271,6 +271,12 @@ p {
 	color: #000000;
 }
 
+p.album-description {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+}
+
 p.album-details {
 	color: #BA8385
 }
