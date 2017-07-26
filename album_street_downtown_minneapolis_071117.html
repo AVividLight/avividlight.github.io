@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+        <title>avividlight.github.io</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Photography, writing, and code, by Michael Bethke">
+        <meta name="keywords" content="Photography, Photos, Writing, Poetry, C++, HTML">
+        <meta name="author" content="Michael Bethke">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resources/stylesheet.css">
+        
+        <script src="javascripts/jquery-3.2.1.min.js"></script>
+        <script>
+            $( document ).ready(function() {                
+                var dir = "photographs/albums/street_downtown_minneapolis_july_11_2017/";
+                var fileextension = ".jpg";
+                $.ajax({
+                    url: dir,
+                    success: function (data) {
+                        $(data).find("a:contains(" + fileextension + ")").each(function () {
+                            //var link = document.createElement("a");
+                            //a.href = 
+                            
+                            var img = document.createElement("img");
+                            img.src = this.pathname;
+                            img.className = "thumbnail";
+                            document.getElementById("main").appendChild(img);
+                            
+                        });
+                    }
+                });
+            });
+        </script>
+	</head>
+
+	<body>        
+		<div id="header">
+			<a href="index.html"><img id="icon" src="/resources/profile.png" alt=""></a>
+			<h1 style="vertical-align:middle; display:inline">AVividLight.github.io</h1>
+			<ul class="inline">
+				<li class="inline"><a href="photography.html" class="header">Photography</a></li>
+				<li class="inline"><a href="writing.html" class="header">Writing</a></li>
+				<li class="inline"><a href="programming.html" class="header">Code</a></li>
+				<li class="inline"><a href="about+me.html" class="header">About Me</a></li>
+			</ul>
+		</div>
+        
+        <div id="main">
+            
+        </div>
+    </body>
+</html>

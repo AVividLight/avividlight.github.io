@@ -138,6 +138,17 @@ div.image-stack {
 	background: #DBCBB6
 }
 
+div.grid {
+    margin: 0 auto;
+}
+
+div.grid-item {
+    float: left;
+}
+
+div.grid-item--horizontal { width: 305px; }
+div.grid-item--vertical { height: 305px; }
+
 figure.image-stack {
 	margin: 32px;
 	padding: auto;
