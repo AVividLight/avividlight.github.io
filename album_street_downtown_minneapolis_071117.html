@@ -19,13 +19,17 @@
                     url: dir,
                     success: function (data) {
                         $(data).find("a:contains(" + fileextension + ")").each(function () {
-                            //var link = document.createElement("a");
-                            //a.href = 
+                            var found_link = this.href.replace(window.location.host, "").replace("http://", "");
+                            var filename = found_link.substr(found_link.lastIndexOf('/') + 1).replace("_thumbnail", "");
                             
                             var img = document.createElement("img");
-                            img.src = this.pathname;
+                            img.src = found_link;
                             img.className = "thumbnail";
-                            document.getElementById("main").appendChild(img);
+                            
+                            var link = document.createElement("a");
+                            link.href = dir + "fullsize/" + filename;
+                            link.appendChild (img);
+                            document.getElementById("main").appendChild(link);
                             
                         });
                     }
