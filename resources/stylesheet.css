@@ -34,13 +34,14 @@ a:active {
 }
 
 a.header {
+	padding-top: 34px;
+	padding-left: 4px;
 	margin: 2px;
-	vertical-align:sub;
 }
 
 a.stack-title {
 	font-size: 1.8em;
-	color: #ffffff;
+	color: #000000;
 }
 
 body {
@@ -70,6 +71,9 @@ div#header {
 	margin:auto;
 	z-index:100000;
 	width:1024px;
+	
+	display: flex;
+	flex-wrap: wrap;
 
     background: rgba(255, 255, 255, 0.8);
     border-width: 0px;
