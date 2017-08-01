@@ -85,6 +85,7 @@ div#main {
 	border-bottom: 2px solid #ffffff;
 	padding: 4px;
 	padding-top: 74px;
+    width: auto;
 }
 
 div.clear-float {
@@ -139,15 +140,15 @@ div.image-stack {
 }
 
 div.grid {
-    margin: 0 auto;
+    margin: auto;
 }
 
 div.grid-item {
     float: left;
 }
 
-div.grid-item--horizontal { width: 305px; }
-div.grid-item--vertical { height: 305px; }
+div.grid-item.horizontal {}
+div.grid-item.vertical {}
 
 figure.image-stack {
 	margin: 32px;
