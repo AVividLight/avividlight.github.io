@@ -5,7 +5,7 @@
         <title>avividlight.github.io</title>
         <meta charset="UTF-8">
         <meta name="description" content="Photography, writing, and code, by Michael Bethke">
-        <meta name="keywords" content="Photography, Photos, Writing, Poetry, C++, HTML">
+        <meta name="keywords" content="Photography, Photos, Photo, Album, Images, Image">
         <meta name="author" content="Michael Bethke">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="resources/stylesheet.css">
@@ -35,31 +35,19 @@
         
         <script src="javascripts/jquery-3.2.1.min.js"></script>
         <script>
+            var album = window.location.hash.substr(1);
+            
             $( document ).ready(function() {                
-                var dir = "photographs/albums/street_downtown_minneapolis_july_11_2017/";
-                var fileextension = ".jpg";
-                $.ajax({
-                    url: dir,
-                    success: function (data) {
-                        alert ("Success");
-                        
-                        $(data).find("a:contains(" + fileextension + ")").each(function () {
-                            var found_link = this.href.replace(window.location.host, "").replace("http://", "");
-                            var filename = found_link.substr(found_link.lastIndexOf('/') + 1).replace("_thumbnail", "");
-                            
-                            var img = document.createElement("img");
-                            img.src = found_link;
-                            img.className = "thumbnail";
-                            
-                            var link = document.createElement("a");
-                            link.href = dir + "fullsize/" + filename;
-                            link.appendChild (img);
-                            document.getElementById("main").appendChild(link);
-                        });
-                    },
-                    error: function () {
-                        alert ("Failure");
-                    }
+                var directory = "photographs/albums/" + album + "/";
+                var index = "photographs/indices/" + album + ".json";
+                
+                $.getJSON( index, function( data ) {
+                    var images = [];
+                    $.each( data, function( key ) {
+                        images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='thumbnail'></a>");
+                    });
+                    
+                    document.getElementById("main").innerHTML = images.join("");
                 });
             });
         </script>
