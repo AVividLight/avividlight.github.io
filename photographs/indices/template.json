@@ -1,9 +1,8 @@
 [
     {
-        "id": "id",
-        "title": "title",
+        "id": "",
+        "title": "",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     }
 ]

@@ -3,175 +3,150 @@
         "id": "a_street_of_sorts",
         "title": "A Street of Sorts",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "caution",
         "title": "Caution",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "champion",
         "title": "Champion",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "crosswalk",
         "title": "Crosswalk",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "delivery",
         "title": "Delivery",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "do_not_enter",
         "title": "Do Not Enter",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "emergence",
         "title": "Emergence",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "facade",
         "title": "Facade",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "flows_pt2",
         "title": "Flows pt2",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "flows",
         "title": "Flows",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "gets_there",
         "title": "Gets There",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "got_places_to_be",
         "title": "Got Places to Be",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "it_used_to_be",
         "title": "It Used to Be",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "king",
         "title": "King",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "m",
         "title": "M",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "morning_commute",
         "title": "Morning Commute",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "morning_newspaper",
         "title": "Morning Newspaper",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "portrait_of_encouragement",
         "title": "Portrait of Encouragement",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "safety",
         "title": "Safety",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "subtle",
         "title": "Subtle",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "this_afternoon",
         "title": "This Afternoon",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "way_of_life",
         "title": "Way of Life",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "we_manage",
         "title": "We Manage",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "work",
         "title": "Work",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "you_dont_want_to_know",
         "title": "You Don't Want to Know",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     }
 ]

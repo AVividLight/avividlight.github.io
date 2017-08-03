@@ -3,119 +3,102 @@
         "id": "brillo",
         "title": "Brillo",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "childsplay",
         "title": "Childsplay",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "continue",
         "title": "Continue",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "faces",
         "title": "Faces",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "frames",
         "title": "Frames",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "higher_art",
         "title": "Higher Art",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "in_the_presence",
         "title": "In the Presence",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "its",
         "title": "Its",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "manual_focus",
         "title": "Manual Focus",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "obligatory_love",
         "title": "Obligatory Love",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "portrait_with_text",
         "title": "Portrait with Text",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "skew",
         "title": "Skew",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "spoonbridge_to_nowhere",
         "title": "Spoonbridge to Nowhere",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "sprall",
         "title": "Sprall",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "stages",
         "title": "Stages",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     },
     {
         "id": "what_do_you_think",
         "title": "What Do you Think",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
     },
     {
         "id": "writer",
         "title": "Writer",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 1
     }
 ]

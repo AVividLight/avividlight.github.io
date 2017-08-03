@@ -1,9 +1,194 @@
 [
     {
-        "id": "id",
-        "title": "title",
+        "id": "after_the_rain",
+        "title": "After the Rain",
         "format": "jpg",
-        "orientation": 0,
         "favourite": 0
+    },
+    {
+        "id": "alligator_ramp",
+        "title": "Alligator Ramp",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "any_time",
+        "title": "Any Time",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "are_we_humans",
+        "title": "Are we Humans",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "before_breakfast",
+        "title": "Before Breakfast",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "black_sea",
+        "title": "Black Sea",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "break",
+        "title": "Break",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "broke_out",
+        "title": "Broke Out",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "danger",
+        "title": "Danger",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "eastside",
+        "title": "Eastside",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "emerge",
+        "title": "Emerge",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "eyes_forward",
+        "title": "Eyes Forward",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "first_day",
+        "title": "First Day",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "gallery_13",
+        "title": "Gallery 13",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "hold_your_gaze",
+        "title": "Hold Your Gaze",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "izakaya",
+        "title": "IZAKAYA",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "look_close_its_a_heist",
+        "title": "Look Close It's a Heist",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "lunch_break",
+        "title": "Lunch Break",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "metal_only",
+        "title": "Metal Only",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "mobile_tree",
+        "title": "Mobile Tree",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "no_need",
+        "title": "No Need",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "obey_your_direction",
+        "title": "Obey Your Direction",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "open",
+        "title": "Open",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "procession",
+        "title": "Procession",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "regality",
+        "title": "Regality",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "returning",
+        "title": "Returning",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "stone_river",
+        "title": "Stone River",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "the_everyday",
+        "title": "The Everyday",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "the_long_way_round",
+        "title": "The Long Way Round",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "traffic",
+        "title": "Traffic",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "valley_of_color",
+        "title": "Valley of Color",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "yo",
+        "title": "Yo",
+        "format": "jpg",
+        "favourite": 1
     }
 ]

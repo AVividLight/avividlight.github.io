@@ -1,0 +1,218 @@
+[
+    {
+        "id": "arts",
+        "title": "Arts",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "be_happy",
+        "title": "Be Happy",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "building_b",
+        "title": "Building B",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "connected_pt2",
+        "title": "Connected pt2",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "connected",
+        "title": "Connected",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "constructed",
+        "title": "Constructed",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "cool_but_are_they_ever_used",
+        "title": "Cool but are They Ever Used",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "east_side",
+        "title": "East Side",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "fusion",
+        "title": "Fusion",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "glint",
+        "title": "Glint",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "history",
+        "title": "History",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "is_this_your_nationalism",
+        "title": "",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "it_comes_for_all",
+        "title": "It Comes for All",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "light_either_way",
+        "title": "Light Either Way",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "light_industrial",
+        "title": "Light Industrial",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "near_modern_castles",
+        "title": "Near Modern Castles",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "office_living",
+        "title": "Office Living",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "one_day",
+        "title": "One Day",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "orchestra",
+        "title": "Orchestra",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "our_legacy_in_glass",
+        "title": "Our Legacy in Glass",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "our_stonehenge",
+        "title": "Our Stonehenge",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "our_year",
+        "title": "Our Year",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "peer_not_behind_the_stone",
+        "title": "Peer Not Behind the Stone",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "progression",
+        "title": "Progression",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "question_your_dystopia",
+        "title": "Question Your Dystopia",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "skyrise",
+        "title": "Skyrise",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "some_air",
+        "title": "Some Air",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "sunrise",
+        "title": "Sunrise",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "target",
+        "title": "Target",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "the_climb",
+        "title": "The Climb",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "the_inner_sanctum",
+        "title": "The Inner Sanctum",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "to_here",
+        "title": "To Here",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "untitled",
+        "title": "Untitled",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "urbanism",
+        "title": "Urbanism",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "use_a_level",
+        "title": "Use a Level",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "valley",
+        "title": "Valley",
+        "format": "jpg",
+        "favourite": 0
+    }
+]
