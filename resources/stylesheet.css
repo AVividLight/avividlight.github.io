@@ -88,6 +88,12 @@ div#main {
     width: auto;
 }
 
+div#photoalbum {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 div.clear-float {
 	clear:both;
 }
@@ -243,6 +249,15 @@ img#icon {
 img.thumbnail {
 	max-width: 305px;
 	max-height: 305px;
+	margin: 4px;
+	border: 8px solid #ffffff;
+    opacity: 1;
+	box-shadow: 0px 2px 5px #888888;
+}
+
+img.large-thumbnail {
+	max-width: 543px;
+	max-height: 543px;
 	margin: 4px;
 	border: 8px solid #ffffff;
     opacity: 1;

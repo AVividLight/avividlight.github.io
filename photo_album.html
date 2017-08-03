@@ -44,10 +44,15 @@
                 $.getJSON( index, function( data ) {
                     var images = [];
                     $.each( data, function( key ) {
-                        images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='thumbnail'></a>");
+                        if (data[key].favourite == 1)
+                        {
+                            images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='large-thumbnail'></a>");
+                        } else {
+                            images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='thumbnail'></a>");
+                        }
                     });
                     
-                    document.getElementById("main").innerHTML = images.join("");
+                    document.getElementById("photoalbum").innerHTML = images.join("");
                 });
             });
         </script>
@@ -66,7 +71,9 @@
 		</div>
         
         <div id="main">
-            
+            <div id="photoalbum">
+                
+            </div>
         </div>
     </body>
 </html>
