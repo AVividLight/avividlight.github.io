@@ -36,6 +36,11 @@
         <script src="javascripts/jquery-3.2.1.min.js"></script>
         <script>
             var album = window.location.hash.substr(1);
+            if (album == "")
+            {
+                window.location.replace("/404.html");
+            }
+
             
             $( document ).ready(function() {                
                 var directory = "photographs/albums/" + album + "/";

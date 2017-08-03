@@ -173,22 +173,7 @@ figure.image-stack img {
 figure.image-stack img:last-child {
 	position: relative;
 }
-/*
-figure.image-stack:hover img:first-child {
-	-webkit-transform: rotate(-15deg);
-	transform: rotate(-15deg);
-}
 
-figure.image-stack:hover img:nth-child(2) {
-	-webkit-transform: rotate(10deg);
-	transform: rotate(10deg);
-}
-
-figure.image-stack:hover img:nth-child(3) {
-	-webkit-transform: translate(0px,10px);
-	transform: translate(0px,10px);
-}
-*/
 h1 {
 	font-size: 2em;
 	color: #000000;
@@ -282,6 +267,10 @@ img.icon {
 }
 
 img.thumbnail:hover {
+	opacity: 0.6;
+}
+
+img.large-thumbnail:hover {
 	opacity: 0.6;
 }
 
