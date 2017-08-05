@@ -1,0 +1,56 @@
+[
+    {
+        "id": "econ",
+        "title": "Econ",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "fair",
+        "title": "fair",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "holden",
+        "title": "HOLDEN",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "light_supermassive",
+        "title": "LIGHT suppermassive",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "monastery",
+        "title": "Monastery",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "monello",
+        "title": "MONELLO",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "red_brick_road",
+        "title": "Red Brick Road",
+        "format": "jpg",
+        "favourite": 0
+    },
+    {
+        "id": "reflections",
+        "title": "Reflections",
+        "format": "jpg",
+        "favourite": 1
+    },
+    {
+        "id": "sunrise_reflection",
+        "title": "Sunrise Reflection",
+        "format": "jpg",
+        "favourite": 1
+    }
+]
