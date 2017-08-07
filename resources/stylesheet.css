@@ -82,7 +82,7 @@ div#main {
     width: auto;
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     div#main {
         padding-top: 16%;
     }
@@ -219,10 +219,9 @@ header {
 	box-shadow: 0px 2px 10px #888888;
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     header {
         flex-direction: column;
-        background: red;
     }
 }
 
@@ -251,7 +250,7 @@ img#icon {
     cursor:pointer;
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     img#icon {
         display: none;
     }
@@ -292,7 +291,7 @@ img.icon {
     max-width: 32px;
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     img.rss-icon {
         display: none;
     }
@@ -339,7 +338,7 @@ ul#header-menu {
 	padding-top: 3%;
 }
 
-@media only screen (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     ul#header-menu {
         padding-top: 0px;
     }
