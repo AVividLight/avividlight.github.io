@@ -38,6 +38,15 @@ a.header {
 	vertical-align:sub;
 }
 
+a#heading {
+    font-size: 2em;
+    text-decoration: none;
+	color: #000000;
+    padding-top: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 a.stack-title {
 	font-size: 1.8em;
 	color: #ffffff;
@@ -93,6 +102,7 @@ div.clear-float {
 div.title {
 	margin: 4px;
 	padding: 8px;
+    overflow: auto;
 }
 
 div#featured-photographs {
@@ -166,17 +176,6 @@ figure.image-stack img:last-child {
 h1 {
 	font-size: 2em;
 	color: #000000;
-    padding-top: 2%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-@media only screen (max-width: 640px) {
-    h1#header {
-        padding-top: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
 }
 
 h2 {
@@ -210,13 +209,10 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: left;
-    
-	position:fixed;
-	top:0px;
-	margin:auto;
-	z-index:100000;
-	width:1024px;
-
+    position:fixed;
+    margin:auto;
+    z-index:100000;
+    width:1024px;   
     background: rgba(255, 255, 255, 0.8);
     border-width: 0px;
     border-bottom: 2px solid #baa385;
@@ -224,8 +220,9 @@ header {
 }
 
 @media only screen (max-width: 640px) {
-    header{
+    header {
         flex-direction: column;
+        background: red;
     }
 }
 
@@ -254,8 +251,7 @@ img#icon {
     cursor:pointer;
 }
 
-@media (max-width: 648px)
-{
+@media only screen (max-width: 640px) {
     img#icon {
         display: none;
     }
@@ -315,8 +311,8 @@ li {
 
 }
 
-li.inline {
-	display: inline;
+li.header-menu-item {
+    float: left;
 }
 
 p {
