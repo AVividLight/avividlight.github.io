@@ -84,7 +84,7 @@ div#main {
 
 @media only screen and (max-width: 640px) {
     div#main {
-        padding-top: 21%;
+        padding-top: 0px;
     }
 }
 
@@ -221,7 +221,12 @@ header {
 
 @media only screen and (max-width: 640px) {
     header {
+        position:initial;
+        width: 100%;
+        
         flex-direction: column;
+        justify-content:center;
+        align-items: center;
     }
 }
 
