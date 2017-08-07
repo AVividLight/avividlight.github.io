@@ -64,29 +64,21 @@ button#topButton {
     border-radius: 10px;
 }
 
-div#header {
-	position:fixed;
-	top:0px;
-	margin:auto;
-	z-index:100000;
-	width:1024px;
-
-    background: rgba(255, 255, 255, 0.8);
-    border-width: 0px;
-    border-bottom: 2px solid #baa385;
-    height:72px;
-	box-shadow: 0px 2px 10px #888888;
-}
-
 div#main {
-
 	border-left: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
 	border-bottom: 2px solid #ffffff;
 	padding: 4px;
-	padding-top: 74px;
+	padding-top: 7%;
     width: auto;
 }
+
+@media (max-width: 640px) {
+    div#main {
+        padding-top: 16%;
+    }
+}
+
 
 div#photoalbum {
     display: flex;
@@ -153,9 +145,6 @@ div.grid-item {
     float: left;
 }
 
-div.grid-item.horizontal {}
-div.grid-item.vertical {}
-
 figure.image-stack {
 	margin: 32px;
 	padding: auto;
@@ -177,6 +166,17 @@ figure.image-stack img:last-child {
 h1 {
 	font-size: 2em;
 	color: #000000;
+    padding-top: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 648px){
+    h1#header {
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
 
 h2 {
@@ -206,6 +206,29 @@ h6 {
 	color: #000000;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    
+	position:fixed;
+	top:0px;
+	margin:auto;
+	z-index:100000;
+	width:1024px;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-width: 0px;
+    border-bottom: 2px solid #baa385
+	box-shadow: 0px 2px 10px #888888;
+}
+
+@media (max-width: 648px){
+    header{
+        flex-direction: column;
+    }
+}
+
 hr {
 	display: block;
     margin-top: 0.2em;
@@ -229,6 +252,13 @@ img#icon {
     width:64px;
     display:inline;
     cursor:pointer;
+}
+
+@media (max-width: 648px)
+{
+    img#icon {
+        display: none;
+    }
 }
 
 img.thumbnail {
@@ -280,7 +310,6 @@ li {
 
 li.inline {
 	display: inline;
-	vertical-align: sub;
 }
 
 p {
@@ -303,6 +332,12 @@ ul {
     padding: 4px;
 }
 
-ul.inline {
-	display: inline;
+ul#header-menu {
+	padding-top: 3%;
+}
+
+@media (max-width: 648px){
+    ul#header-menu {
+        padding-top: 0px;
+    }
 }
