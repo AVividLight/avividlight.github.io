@@ -84,7 +84,7 @@ button#topButton {
     border-radius: 10px;
 }
 
-div#main {
+main {
 	border-left: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
 	border-bottom: 2px solid #ffffff;
@@ -94,7 +94,7 @@ div#main {
 }
 
 @media only screen and (max-width: 640px) {
-    div#main {
+    main {
         padding-top: 0px;
     }
 }
@@ -114,30 +114,6 @@ div.title {
 	margin: 4px;
 	padding: 8px;
     overflow: auto;
-}
-
-div#featured-photographs {
-	margin: 4px;
-	padding: 8px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	background: #C9CCCE;
-}
-
-div#featured-writing {
-	margin: 4px;
-	padding: 8px;
-	background: #838399;
-}
-
-div.photography-albums {
-	margin: 4px;
-	padding: 8px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	background: #77838D;
 }
 
 div.image-stack {
@@ -362,6 +338,17 @@ li.header-menu-item {
     float: left;
 }
 
+nav {
+    padding-left: 1em;
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 640px) {
+    nav {
+        padding: 0%;
+    }
+}
+
 p {
 	color: #000000;
 }
@@ -376,18 +363,39 @@ p.album-details {
 	color: #BA8385
 }
 
+section {
+    margin: 4px;
+	padding: 8px;
+}
+
+section#articles {
+    background: #DBCCB6;
+}
+
+section#featured-photographs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #D1D1D6;
+}
+
+section#featured-writing {
+	background: #838399;
+}
+
+section.photography-albums {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #D1D1D6;
+}
+
+section#table-of-contents {
+    background: #DBCCB6;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 4px;
-}
-
-ul#header-menu {
-	padding-top: 3%;
-}
-
-@media only screen and (max-width: 640px) {
-    ul#header-menu {
-        padding-top: 0px;
-    }
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
