@@ -52,6 +52,13 @@ a.stack-title {
 	color: #ffffff;
 }
 
+article {
+	padding: 8px;
+	margin: 8px;
+	border: 2px solid #ffffff;
+	background: #dbccb6;
+}
+
 body {
 	background: #fff6ea;
 	max-width: 1024px;
@@ -120,13 +127,6 @@ div#featured-writing {
 	background: #838399;
 }
 
-div.article {
-	padding: 8px;
-	margin: 8px;
-	border: 2px solid #ffffff;
-	background: #dbccb6;
-}
-
 div.photography-albums {
 	margin: 4px;
 	padding: 8px;
@@ -176,6 +176,17 @@ figure.image-stack img:last-child {
 h1 {
 	font-size: 2em;
 	color: #000000;
+}
+
+h1.article-header {
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0.2em;
+    padding-left: 0.1em;
+    border: 2px solid #ffffff;
+    background-color: #dbccb6;
+    background-size: cover;
+    background-position: center
 }
 
 h2 {
