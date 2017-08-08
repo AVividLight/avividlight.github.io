@@ -49,12 +49,18 @@
                 $.getJSON( index, function( data ) {
                     var images = [];
                     $.each( data, function( key ) {
+                        var thumbnail_class = "";
+                        var heart_class = "";
                         if (data[key].favourite == 1)
                         {
-                            images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='large-thumbnail'></a>");
+                            thumbnail_class = "favourite-thumbnail";
+                            heart_class = "heart-overlay";
                         } else {
-                            images.push( "<a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='thumbnail'></a>");
+                            thumbnail_class = "thumbnail";
+                            heart_class = "hidden";
                         }
+                        
+                        images.push( "<div class='image-holder'><a href='photographs/albums/" + album + "/" + data[key].id + "." + data[key].format + "' target='blank'><img src='photographs/albums/" + album + "/" + data[key].id + "_thumbnail." + data[key].format + "' alt='" + data[key].title + "' class='" + thumbnail_class + "'></a><img src='resources/generic/heart.svg' class='" + heart_class + "'></div>");
                     });
                     
                     document.getElementById("photoalbum").innerHTML = images.join("");

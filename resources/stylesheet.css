@@ -13,6 +13,10 @@ http://paletton.com/#uid=40I0u0k2Ew001Z30RJS5lrt97nl
 	margin: 0px;
 }
 
+.hidden {
+    display: none;
+}
+
 .subtle-text {
     color: #d1d1d6;
 }
@@ -48,7 +52,7 @@ a#heading {
 }
 
 a.stack-title {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: #ffffff;
 }
 
@@ -155,6 +159,21 @@ div.grid-item {
     float: left;
 }
 
+div.image-holder {
+    position: relative;
+}
+
+div.article-header {
+    font-size: 2.2em;
+    margin-top: 0px;
+    margin-bottom: 0.2em;
+    padding-left: 0.1em;
+    border: 2px solid #ffffff;
+    background-color: #dbccb6;
+    background-size: cover;
+    background-position: center
+}
+
 figure.image-stack {
 	margin: 32px;
 	padding: auto;
@@ -176,17 +195,6 @@ figure.image-stack img:last-child {
 h1 {
 	font-size: 2em;
 	color: #000000;
-}
-
-h1.article-header {
-    font-size: 4em;
-    margin-top: 0px;
-    margin-bottom: 0.2em;
-    padding-left: 0.1em;
-    border: 2px solid #ffffff;
-    background-color: #dbccb6;
-    background-size: cover;
-    background-position: center
 }
 
 h2 {
@@ -281,13 +289,20 @@ img.thumbnail {
 	box-shadow: 0px 2px 5px #888888;
 }
 
-img.large-thumbnail {
+img.favourite-thumbnail {
 	max-width: 543px;
 	max-height: 543px;
 	margin: 4px;
 	border: 8px solid #ffffff;
     opacity: 1;
 	box-shadow: 0px 2px 5px #888888;
+}
+
+@media only screen and (max-width: 640px) {
+    img.favourite-thumbnail {
+        max-width: 305px;
+        max-height: 305px;
+    }
 }
 
 img.stack-thumbnail {
@@ -300,6 +315,23 @@ img.stack-thumbnail {
 	-webkit-backface-visibility: hidden;  /* Chrome, Safari, Opera */
     backface-visibility: hidden;
 }
+
+img.heart-overlay {
+    display: none;
+    position: absolute;
+    max-height: 6em;
+    max-width: 6em;
+    top: calc(50% - 3em);
+    left: calc(50% - 3em);
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 640px) {
+    img.heart-overlay {
+        display: inline;
+    }
+}
+
 
 img.icon {
     margin: 4px;
