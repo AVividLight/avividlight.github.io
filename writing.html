@@ -8,7 +8,22 @@
         <meta name="keywords" content="Photography, Photos, Writing, Poetry, C++, HTML">
         <meta name="author" content="Michael Bethke">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="resources/stylesheet.css">
+		<link rel="stylesheet" href="resources/stylesheet.css">
+		<style>
+			.invert {
+				-webkit-filter: invert(1); /* safari 6.0 - 9.0 */
+          		filter: invert(1);
+			}
+			.toc {
+				-webkit-column-count: 3;
+    			-moz-column-count: 3;
+    			column-count: 3;
+				column-rule: 2px solid #FFFFFF;
+			}
+			.article-body {
+				font-size: 100%;
+			}
+		</style>
         
         <!-- ****** faviconit.com favicons ****** -->
         <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
@@ -52,12 +67,9 @@
 			</div>
             
             <section id="table-of-contents">
-                <div style="columns: 3; column-rule: 2px solid #FFFFFF">
-                    <ol>
-                        <li>
-                            <a href="#08072017_1142">"You Are Here", August 8, 2017</a>
-                        </li>
-                    </ol>
+				<div class="toc">
+					<a href="#08072017_1142">"You Are Here", August 8, 2017</a><br>
+					<a href="#08292020_1224">"Three Years Later", August 29, 2020</a><br>
                 </div>
             </section>
             
@@ -68,18 +80,49 @@
                 </div>
                 
                 <section id="articles">
+					<article id="08292020_1224">
+                        <div class="article-header" style="background-image: url(photographs/albums/street_downtown_minneapolis_june_12_2017/daily_thumbnail.jpg)">
+                            <a href="https://avividlight.github.io/writing.html#08292020_1224"><img src="resources/generic/link.svg" alt="Permalink" width="48px" height="48px" style="vertical-align: baseline" class="invert"></a>
+                            <h2 style="display: inline" class="invert">Three Years Later</h2>
+                        </div>
+                        <div class="clear-float"></div>
+						<div class="article-body">
+							<h5 class="author" style="font-weight: lighter">Written by Michael Bethke, August 29, 2020</h5>
+							
+							<p>Three years ago, I did not expect to create 80% of a personal website and then essentially abandon it to the winds of time. I also did not expect that I would find a use for it again while locked in my home, taking a computer security course online amidst a global pandemic. But, here we are.</p>
+							
+							<p>For my class, I've been instructed to use this blog as a place to note, discuss, and comment on websites that I find useful or interesting (within the general field of computer-security). To that end, I will read, discuss, and report on at least one site that contains useful resources/information related to the general topic of computer security every week.</p>
+							
+							<p>So without further ado, my report for week one:</p>
+
+							<h3>You Can Use Any Security Suite That You Want, As Long As It's Windows Defender</h3>
+							<p><b>Source:</b> Parmar, Mayank. “Microsoft Really Doesn't Want You to Disable Windows 10 Defender.” <i>Windows Latest</i>, 19 Aug. 2020, <a href="www.windowslatest.com/2020/08/19/microsoft-retires-disableantispyware-for-windows-defender/">www.windowslatest.com/2020/08/19/microsoft-retires-disableantispyware-for-windows-defender/</a>.</p>
+							
+							<p>As of the August 2020 Windows 10 update, Microsoft has removed a registry edit which allowed users to disable the auto-start feature for Windows Defender. Making that change in your Windows registry was previously the only way to disable the built-in virus protection, however, citing the ability of malware to edit the same registry value, Microsoft has chosen to eliminate the possibility altogether.</p>
+
+							<p>They say that this will improve security for users, however I am concerned that there are many cases where Windows Defender may need to be disabled for legitimate reasons. An example of one such situation is using a third-party anti-virus program. Windows Defender is known for behaving poorly when software that's also trying to detect and remove malware is running in parallel.</p>
+
+							<p>In an attempt to alleviate concern about this issue, Microsoft has stated that Windows Defender will detect when another anti-virus program is running and will disable itself. But with that, it seems like we're back in square one; instead of editing the registry to disable Windows Defender, new malware will just trigger whatever the criteria is to disable Windows Defender and go about its nefarious business.</p>
+
+							<p>Perhaps Microsoft is truly confident in their new method of detecting other security suites and turning their own off. I'm not convinced, though, and I wouldn't be surprised if they may have ulterior anti-competitive motives. The new method may not work 100% of the time, and could end up unfairly hampering third-party developers. And, if that is the case, Microsoft has actually made security worse.</p>
+
+							<p>It's important to note that this is purely speculation. Indeed, Microsoft may simply be attempting to improve the security of millions of users, but it seems unrealistically optimistic to trust that detecting and automatically disabling anti-virus software isn't a risk.</p>
+
+							<p>Computer security is very much an arms race between malware authors and security developers, and the ever-changing nature of computer science means that there is no permanent solution to computer security. However, reducing user choice and hindering third-party developers does not seem like a positive change.</p>
+						</div>
+                    </article>
                     <article id="08072017_1142">
                         <div class="article-header" style="background-image: url(photographs/albums/street_downtown_minneapolis_june_12_2017/good_choice_thumbnail.jpg)">
                             <a href="https://avividlight.github.io/writing.html#08072017_1142"><img src="resources/generic/link.svg" alt="Permalink" width="48px" height="48px" style="vertical-align: baseline"></a>
                             <h2 style="display: inline">You Are Here</h2>
                         </div>
-                    
                         <div class="clear-float"></div>
-                    
-                        <h5 class="author" style="font-weight: lighter">Written by Michael Bethke, August 8, 2017</h5>
-                        <p>Welcome to my new website! Hooray! Since I'm still finishing things up, please excuse the current state of things, and accept a brief textual-tour as a token of my truthful appolgy.</p>
-                        
-                        <p>First things first, what is this website for? Such a straightforward question requires a straightforward answer; this website will serve as my platform for blatant self-promotion via photography, writing, and code. I am not a professional photographer, but I like taking pictures. I am not a professional author (obviously), but I like writing. I am not a professional software engineer, but I like programming. You will see the fruits of my hobbies here. That is what my website is for.</p>
+						<div class="article-body">
+							<h5 class="author" style="font-weight: lighter">Written by Michael Bethke, August 8, 2017</h5>
+							<p>Welcome to my new website! Hooray! Since I'm still finishing things up, please excuse the current state of things, and accept a brief textual-tour as a token of my truthful apology.</p>
+							
+							<p>First things first, what is this website for? Such a straightforward question requires a straightforward answer; this website will serve as my platform for blatant self-promotion via photography, writing, and code. I am not a professional photographer, but I like taking pictures. I am not a professional author (obviously), but I like writing. I am not a professional software engineer, but I like programming. You will see the fruits of my hobbies here. That is what my website is for.</p>
+						</div>
                     </article>
                 </section>
             </div>
